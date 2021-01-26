@@ -1,0 +1,53 @@
+.wrapper{
+            margin: auto;
+            width:70;
+			background-color: #e6ffff;
+        }
+
+        .topmenu{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            background-color: #ffe6ff;
+			height: 300px;
+			font-size: 60px;
+		}
+
+        .topmenu >li{
+            list-style: none;
+            padding: 1em;
+            color:white;
+        }
+
+        .flexgrowcon{
+            display: flex;
+            align-items: stretch;
+        }
+        leftbar{
+            background-color: #ffcccc;
+            min-height: 500px;
+			min-width: 150px;
+        }
+
+        footer{
+            background-color: #ffffe6;
+            text-align: center;
+            height: 100px;
+            color: black;
+        }
+
+		figure{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		
+		content div article p{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		
+		content div article h2{
+			margin-left: 5%;
+		}
